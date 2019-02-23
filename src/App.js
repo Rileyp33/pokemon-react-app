@@ -13,7 +13,11 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <InfoBox />
+        <div className="row">
+          <div className="small-12 columns callout app-wrapper">
+            <InfoBox />
+          </div>
+        </div>
       </div>
     );
   }
