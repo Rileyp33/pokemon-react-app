@@ -66,64 +66,82 @@ body {
 }
 
 .normal {
-   background-color: #A8A77A
+   background-color: #A8A77A;
+   animation: normalTransition 1.5s;
 }
 .fire {
-    background-color: #EE8130
+    background-color: #EE8130;
+    animation: fireTransition 1.5s;
 }
 .water {
     background-color: #6390F0;
     color: white;
+    animation: waterTransition 1.5s;
 }
 .electric {
-    background-color: #F7D02C
+    background-color: #F7D02C;
+    animation: electricTransition 1.5s;
 }
 .grass {
-    background-color: #7AC74C
+    background-color: #7AC74C;
+    animation: grassTransition 1.5s;
 }
 .ice {
-    background-color: #96D9D6
+    background-color: #96D9D6;
+    animation: iceTransition 1.5s;
 }
 .fighting {
     background-color: #C22E28;
     color: white;
+    animation: fightingTransition 1.5s;
 }
 .poison {
     background-color: #A33EA1;
     color: white;
+    animation: poisonTransition 1.5s;
 }
 .ground {
-    background-color: #E2BF65
+    background-color: #E2BF65;
+    animation: groundTransition 1.5s;
 }
 .flying {
-    background-color: #A98FF3
+    background-color: #A98FF3;
+    animation: flyingTransition 1.5s;
 }
 .psychic {
-    background-color: #F95587
+    background-color: #F95587;
+    animation: psychicTransition 1.5s;
 }
 .bug {
-    background-color: #A6B91A
+    background-color: #A6B91A;
+    animation: bugTransition 1.5s;
 }
 .rock {
-    background-color: #B6A136
+    background-color: #B6A136;
+    animation: rockTransition 1.5s;
 }
 .ghost {
     background-color: #735797;
     color: white;
+    animation: ghostTransition 1.5s;
 }
 .dragon {
     background-color: #6F35FC;
     color: white;
+    animation: dragonTransition 1.5s;
 }
 .dark {
     background-color: #705746;
     color: white;
+    animation: darkTransition 1.5s;
 }
 .steel {
-    background-color: #B7B7CE
+    background-color: #B7B7CE;
+    animation: steelTransition 1.5s;
 }
 .fairy {
-    background-color: #D685AD
+    background-color: #D685AD;
+    animation: fairyTransition 1.5s;
 }
 
 .pokechart {
@@ -177,12 +195,598 @@ input {
 }
 
 .react-switch-handle {
-  background-image: url('./pokeball.png') !important;
+  background-image: url('./icons/pokeball.png') !important;
   background-size: contain !important;
-  /* margin-top: .5rem !important; */
 }
 
 .react-switch-bg {
   background-color: #e6e6e6 !important;
-  /* margin-top: .rem !important; */
+}
+
+@keyframes normalTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/normalIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fireTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+  }
+  50% {
+    background-image: url('./icons/fireIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+}
+
+@keyframes bugTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/bugIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes darkTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/darkIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes electricTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/electricIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fairyTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/fairyIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes fightingTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/fightingIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes flyingTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/flyingIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ghostTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/ghostIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes grassTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/grassIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes grassTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/grassIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes iceTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/iceIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes psychicTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/psychicIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes steelTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/steelIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes waterTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/waterIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes poisonTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/poisonIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes groundTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/groundIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rockTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/rockIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes dragonTransition {
+  0% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: transparent;
+    background-position: right bottom;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    background-image: url('./icons/dragonIcon.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center bottom;
+    border-radius: 50px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    transition: rotateX infinite;
+    opacity: 1;
+    transform: rotate(1.5deg);
+  }
+  100% {
+    border-radius: 20px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    transform: rotate(0deg);
+  }
 }
