@@ -5,7 +5,7 @@ body {
 }
 
 .app {
-  margin: 2rem;
+  margin: 1rem;
   margin-top: 0rem;
 }
 
@@ -211,7 +211,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/normalIcon.png');
@@ -222,15 +221,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -253,9 +249,7 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
@@ -272,7 +266,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/bugIcon.png');
@@ -283,15 +276,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -303,7 +293,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/darkIcon.png');
@@ -314,15 +303,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -334,7 +320,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/electricIcon.png');
@@ -345,15 +330,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -365,7 +347,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/fairyIcon.png');
@@ -376,15 +357,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -396,7 +374,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/fightingIcon.png');
@@ -407,15 +384,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -427,7 +401,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/flyingIcon.png');
@@ -438,15 +411,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -458,7 +428,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/ghostIcon.png');
@@ -469,15 +438,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -489,7 +455,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/grassIcon.png');
@@ -500,15 +465,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -520,7 +482,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/grassIcon.png');
@@ -531,15 +492,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -551,7 +509,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/iceIcon.png');
@@ -562,15 +519,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -582,7 +536,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/psychicIcon.png');
@@ -593,15 +546,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -613,7 +563,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/steelIcon.png');
@@ -624,15 +573,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -644,7 +590,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/waterIcon.png');
@@ -655,15 +600,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -675,7 +617,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/poisonIcon.png');
@@ -686,15 +627,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -706,7 +644,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/groundIcon.png');
@@ -717,15 +654,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -737,7 +671,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/rockIcon.png');
@@ -748,15 +681,12 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
 
@@ -768,7 +698,6 @@ input {
     color: transparent;
     background-position: right bottom;
     opacity: 0;
-    transform: rotate(0deg);
   }
   50% {
     background-image: url('./icons/dragonIcon.png');
@@ -779,14 +708,11 @@ input {
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
     background-color: black;
-    transition: rotateX infinite;
     opacity: 1;
-    transform: rotate(1.5deg);
   }
   100% {
     border-radius: 20px;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    transform: rotate(0deg);
   }
 }
